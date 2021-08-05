@@ -23,7 +23,7 @@ p {
 
 
 .flex-box {
-    display: flex;
+    display: flex; 
     align-items: center;
     justify-content: center;
    
@@ -32,21 +32,21 @@ p {
 
 .container-box {
     background-color:aquamarine;
+    padding-bottom: 1px;
+    width: 90%;
+    height: 90%;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+   
 
   }
   
   .content-box {
     height: 2%;
-    border:10px solid green;
-    margin: auto;
-    border: none;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
     padding: 1px;
+
 
   }
 
@@ -69,7 +69,8 @@ p {
 
   }
 
-  .content-title {
+  .content-title {    
+    padding: 5px;
     border: 1px solid black;
     text-align: center;
     font-family: Georgia,sans-serif;
@@ -77,53 +78,23 @@ p {
     font-size: 125%;
     margin-bottom: 0;
     margin-top: 0;
-    padding: 5px;
     width: 30%;
     float:right;
-
+    width: 100px;
+    margin-left: 100%;
     
   }
 
   .content-title-chicken {
-    border: 1px solid black;
-    text-align: center;
-    width: 30%;
-    margin-left: 70%;
-    font-family: Georgia,sans-serif;
-    font-weight: bold;
-    font-size: 125%;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 5px;
-    background-color: #FFFF00;
+    background-color: rosybrown;
   }
 
   .content-title-beef {
-    border: 1px solid black;
-    text-align: center;
-    width: 30%;
-    margin-left: 70%;
-    font-family: Georgia,sans-serif;
-    font-weight: bold;
-    font-size: 125%;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 5px;
-    background-color: #FFFF00;
+    background-color: crimson;
   }
 
   .content-title-sushi {
-    border: 1px solid black;
-    text-align: center;
-    width: 30%;
-    margin-left: 70%;
-    font-family: Georgia,sans-serif;
-    font-weight: bold;
-    font-size: 125%;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 5px;
-    background-color: #FFFF00;
+    background-color: navajowhite;
   }
 
   /* Simple Responsive Framework. */
@@ -133,14 +104,16 @@ p {
     width: 25%;
     
   }
-  /*
+
 
 
 
    
   @media (min-width: 992px) {
-    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-      float: right;
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, 
+    .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+     float: right;
+     
     }
   
     .col-lg-1 {
@@ -185,8 +158,11 @@ p {
   
   
   @media (min-width: 768px) and (max-width: 991px) {
-    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, 
+    .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    
       float:initial;
+    
     }
   
     .col-md-1 {
@@ -230,8 +206,11 @@ p {
  
   
   @media (max-width: 768px) {
-    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-       float: right;
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, 
+    .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+      
+      float: right;
+      
     }
   
     .col-sm-1 {
@@ -272,9 +251,5 @@ p {
     }
   }
 
-  
-  
-
-  */
 
   
