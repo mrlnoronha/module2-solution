@@ -11,19 +11,16 @@ p {
     margin: 0;
 }  
 
-  /*
+
   section {
-    background-color: #00FF99;
-    
+    background-color: red;    
     width: 100%;
-    height: 200px;
-    font-family: Helvetica;
-    color: black;
+    height: 200px;    
     position: relative;
     
   }
 
-  */
+
 
 .flex-box {
     display: flex;
@@ -35,14 +32,12 @@ p {
 
 .container-box {
     background-color:aquamarine;
-    height: 90%;
-    margin:auto;
 
   }
   
   .content-box {
-    height: 75%;
-    border:100px solid green;
+    height: 2%;
+    border:10px solid green;
     margin: auto;
     border: none;
     margin-left: auto;
@@ -51,19 +46,27 @@ p {
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+    padding: 1px;
 
   }
 
 
 
   .content-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
     text-align: left;
-    width: 100%;
+    width: 90%;
     right: 100%;
     border: 0px solid grey;
-    margin: 5px;
+    margin: 10px;
+    height: 10%;
     text-align:left;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+
   }
 
   .content-title {
@@ -82,21 +85,45 @@ p {
   }
 
   .content-title-chicken {
-    background-color: rgb(201, 25, 157);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    text-align: center;
+    width: 30%;
+    margin-left: 70%;
+    font-family: Georgia,sans-serif;
     font-weight: bold;
+    font-size: 125%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 5px;
+    background-color: #FFFF00;
   }
 
   .content-title-beef {
-    background-color: rgb(243, 9, 9);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    text-align: center;
+    width: 30%;
+    margin-left: 70%;
+    font-family: Georgia,sans-serif;
     font-weight: bold;
+    font-size: 125%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 5px;
+    background-color: #FFFF00;
   }
 
   .content-title-sushi {
-    background-color: rgb(187, 169, 9);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    text-align: center;
+    width: 30%;
+    margin-left: 70%;
+    font-family: Georgia,sans-serif;
     font-weight: bold;
+    font-size: 125%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 5px;
+    background-color: #FFFF00;
   }
 
   /* Simple Responsive Framework. */
@@ -106,12 +133,14 @@ p {
     width: 25%;
     
   }
-  
-  /********** Large devices only **********/
+  /*
+
+
+
    
-   @media (min-width: 992px) {
+  @media (min-width: 992px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-      float: center;
+      float: right;
     }
   
     .col-lg-1 {
@@ -153,11 +182,11 @@ p {
   
   }
   
-  /********** Mide devices only - tablets **********/
+  
   
   @media (min-width: 768px) and (max-width: 991px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-      float: center;
+      float:initial;
     }
   
     .col-md-1 {
@@ -198,11 +227,11 @@ p {
     }
   }
   
-  /********** Small devices only - Cell Phone **********/
+ 
   
   @media (max-width: 768px) {
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-       float: center;
+       float: right;
     }
   
     .col-sm-1 {
@@ -242,4 +271,10 @@ p {
       width: 100%;
     }
   }
+
+  
+  
+
+  */
+
   
