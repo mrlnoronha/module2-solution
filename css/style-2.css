@@ -1,0 +1,178 @@
+/********** Base styles **********/
+h1 {
+    margin-bottom: 15px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid black;
+  }
+  
+
+  .container-box {
+    background-color: white;
+    height: 200px;
+    border:10px solid green;
+    margin: 5%;
+  }
+  
+  .content-box {
+    background-color: rgb(129, 126, 126);
+    color: white;
+    text-align: right;
+    width: 40%;
+    right: 40%;
+    border: 10px solid;
+
+  }
+
+  .content-title {
+    /*background-color: rgb(9, 7, 75);*/
+    margin-left: 60%;
+    color: white;
+    text-align: center;
+    height: 60%;
+    width: 40%;
+    right: 25px;
+    border: 0px solid red;
+
+  }
+
+  .content-text {
+    /*background-color: black;*/
+    color: white;
+    text-align: left;
+    width: 100%;
+    right: 100%;
+    border: 0px solid grey;
+    margin: 5px;
+    text-align:left;
+  }
+
+  .content-title-chicken {
+    background-color: rgb(201, 25, 157);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+
+  .content-title-beef {
+    background-color: rgb(243, 9, 9);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+
+  .content-title-sushi {
+    background-color: rgb(187, 169, 9);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+
+  /* Simple Responsive Framework. */
+  .row {
+    
+    border: 15px solid rgb(20, 6, 219);
+    background-color: #f70808;
+    /*align-items: center;*/
+    /*margin-left: 5%;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid black;
+    
+  }
+  
+  /********** Large devices only **********/
+  @media (min-width: 1200px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      float: left;
+      border: 1px solid rgb(0, 0, 0);
+    }
+    .col-lg-1 {
+      width: 8.33%;
+    }
+    .col-lg-2 {
+      width: 16.66%;
+    }
+    .col-lg-3 {
+      width: 25%;
+      border: 5px solid blueviolet;
+      align-items: center;
+    }
+    .col-lg-4 {
+      width: 33.33%;
+    }
+    .col-lg-5 {
+      width: 41.66%;
+    }
+    .col-lg-6 {
+      width: 50%;
+    }
+    .col-lg-7 {
+      width: 58.33%;
+    }
+    .col-lg-8 {
+      width: 66.66%;
+    }
+    .col-lg-9 {
+      width: 74.99%;
+    }
+    .col-lg-10 {
+      width: 83.33%;
+    }
+    .col-lg-11 {
+      width: 91.66%;
+    }
+    .col-lg-12 {
+      width: 100%;
+    }
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 950px) and (max-width: 1199px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+      float: left;
+      border: 1px solid green;
+    }
+    .col-md-1 {
+      width: 8.33%;
+    }
+    .col-md-2 {
+      width: 16.66%;
+    }
+    .col-md-3 {
+      width: 25%;
+    }
+    .col-md-4 {
+      width: 33.33%;
+    }
+    .col-md-5 {
+      width: 41.66%;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-7 {
+      width: 58.33%;
+    }
+    .col-md-8 {
+      width: 66.66%;
+    }
+    .col-md-9 {
+      width: 74.99%;
+    }
+    .col-md-10 {
+      width: 83.33%;
+    }
+    .col-md-11 {
+      width: 91.66%;
+    }
+    .col-md-12 {
+      width: 100%;
+    }
+  }
