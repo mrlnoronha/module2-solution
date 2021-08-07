@@ -28,7 +28,8 @@ p {
 
 .container-box {
     border: 1px solid black;
-    background-color: white;
+    background-color: red;
+    
  
 
   }
@@ -46,7 +47,7 @@ p {
       border: 1px solid black;
       background-color:grey;
       width: 90%;
-      height: 150px;
+      height: 20%;
       margin-right: auto;
       margin-left: auto;
       font-family: Helvetica;
@@ -77,6 +78,7 @@ p {
   .row {
       background-color: fuchsia;
       border: 1px solid black;
+      margin:10px;
 
 
     
