@@ -18,10 +18,7 @@ h1 {
   padding: 10px;
 }
 
-.box{
-  background-color: gray;
-  border: 1px solid black;
-}
+
 
 .container-box {
   background-color:white;
@@ -29,12 +26,18 @@ h1 {
 
 
 .flex-box {
-    background-color: indianred;   
+    background-color: indianred;  
   }
 
+  .box{
+    background-color: gray;
+    border: 1px solid black;
+    position:relative;
+  }
   
   .content-box {    
     background-color: rebeccapurple;
+
   }
 
 
@@ -45,7 +48,8 @@ h1 {
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       font-size: 22px;
       width: 150px;
-      margin:initial;
+      top:0;
+      right: 0;
     }
 
 
